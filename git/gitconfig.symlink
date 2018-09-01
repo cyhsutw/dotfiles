@@ -1,0 +1,21 @@
+# Local/private config goes in the include
+[include]
+	path = ~/.gitconfig.local
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vi
+	excludesfile = ~/.gitignore
+	autocrlf = input
+[commit]
+	gpgsign = true
+[alias]
+	co = checkout
+	st = status
+	lg1 = log --oneline
+[gpg]
+	program = /usr/local/bin/gpg2
+[color]
+	ui = auto
