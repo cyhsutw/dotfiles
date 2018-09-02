@@ -46,9 +46,6 @@ setup_gitconfig () {
     if test $(which gpg)
     then
       gpg --list-sig
-    elif test $(which gpg2)
-    then
-      gpg2 --list-sig
     fi
     user ' - What is your Git signing key?'
     read -e git_signing_key
