@@ -27,6 +27,10 @@ fail () {
   exit
 }
 
+install_oh_my_zsh () {
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+}
+
 setup_gitconfig () {
   if ! [ -f git/gitconfig.local.symlink ]
   then
@@ -145,6 +149,7 @@ install_dotfiles () {
 }
 
 setup_gitconfig
+install_oh_my_zsh
 install_dotfiles
 
 # If we're on a Mac, let's install and setup homebrew.
