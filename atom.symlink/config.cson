@@ -1,0 +1,23 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "0a7a6efd-2418-4bd3-bdca-1c1515f0c4b0"
+  core:
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 16
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "51dc7850-3de6-46ff-b8f4-ddf4ecedd488"
+  "file-icons":
+    coloured: false
+  "linter-ui-default":
+    panelHeight: 69
+  "split-diff": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".ini.source":
+  editor:
+    preferredLineLength: 120
