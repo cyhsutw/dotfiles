@@ -42,6 +42,14 @@ setup_gitconfig () {
     read -e git_author_name
     user ' - What is your Git author email?'
     read -e git_author_email
+
+    if test $(which gpg)
+    then
+      gpg --list-sig
+    elif test $(which gpg2)
+    then
+      gpg2 --list-sig
+    fi
     user ' - What is your Git signing key?'
     read -e git_signing_key
 
