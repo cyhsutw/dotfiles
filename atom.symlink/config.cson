@@ -12,6 +12,7 @@
     userId: "51dc7850-3de6-46ff-b8f4-ddf4ecedd488"
   "file-icons":
     coloured: false
+  "linter-flake8": {}
   "linter-ui-default":
     panelHeight: 69
   "split-diff": {}
