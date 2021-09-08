@@ -3,6 +3,8 @@
 	path = ~/.gitconfig.local
 [push]
 	default = simple
+[pull]
+	ff = only
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
@@ -13,6 +15,7 @@
 	co = checkout
 	st = status
 	lg1 = log --oneline
+	s = switch
 [gpg]
 	program = /usr/local/bin/gpg
 [color]
